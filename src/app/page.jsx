@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import {Monteserat} from 'next/font/google'
+import { Monteserrat } from 'next/font/google'
 const monteserat = Montserrat({weight: '500',subsets: ['cyrillic']})
 export default function Home() {
   return (
