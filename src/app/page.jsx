@@ -10,7 +10,7 @@ export default function Home() {
         <div className="line w-1/4 bg-[#4020d2] h-3  rounded-lg"></div>
 
         <h1 className='font-extrabold my-6 text-4xl'><span className=' text-[#4020d2] '>Hi</span>, I'm Tayu Prosper</h1>
-        <p className='font-bold'>A full stack developer with experience in <span className="text-[#4020d2] font-bold">React</span>,<span className="text-[#4020d2] font-bold"> Next.js</span>, <span className="text-[#4020d2] font-bold">Python</span> and <span className="text-[#4020d2] font-bold">C programing</span> I am willing to take free internship in other to gather experience from experts in the field and get better at what i do.</p>
+        <p className='font-bold'>A full stack developer with experience in <span className="text-[#4020d2] font-bold">React</span>,<span className="text-[#4020d2] font-bold"> Next.js</span>, <span className="text-[#4020d2] font-bold">Python</span> and <span className="text-[#4020d2] font-bold">C programing</span> I am willing to take free internship in other to gather experience from experts in the field and get better at what i do 😊.</p>
       </div>
       <div className="img overflow-hidden flex shadow-2xl justify-center w-full p-10 rounded bg-[#4020d2] h-1/2">
         <img className='rounded-full border-4' src='myimg.png'/>
