@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faAmbulance} from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link';
-import { facebook } from 'fontawesome';
+import { Facebook } from 'fontawesome';
 export default function Contacts() {
     const phoneNumber = '+237673290032'; // Replace with the recipient's phone number
     const message = "Hello, Tayu, i've seen your'e portfolio and i would like to work with you on my next project"; // Replace with the pre-filled message
@@ -19,34 +19,34 @@ export default function Contacts() {
             <div className="rounded-lg h-fit flex flex-col lg:flex-row shadow-xl w-full gap-7 bg-white p-4 lg:justify-between">
                 <div className="x flex flex-col items-center hover:cursor-pointer hover:scale-110">
                     <div className="logo">
-                        <FontAwesomeIcon icon={faAmbulance}/>
+                        <FontAwesomeIcon icon="fa-brands fa-x-twitter" />
                     </div>
                     <div className="name">
                         <h1 className='text-3xl font-extrabold'>X (Twitter)</h1>
                     </div>
                 </div>
                 <div className="wha flex flex-col items-center hover:cursor-pointer hover:scale-110">
-                <div className="logo">WhA</div>
+                <div className="logo"><FontAwesomeIcon icon="fa-brands fa-square-whatsapp" /></div>
                     <div className="name">
                         <Link href={whatsappLink} className='text-3xl font-extrabold'>WhatsApp</Link>
                     </div>
                 </div>
                 <div className="facebk flex flex-col items-center hover:cursor-pointer hover:scale-110">
-                <div className="logo">FBK</div>
+                <div className="logo"><FontAwesomeIcon icon="fa-brands fa-facebook" /></div>
                     <div className="name">
                         <Link href={facebookLink} className='text-3xl font-bold'>Facebook</Link>
                     </div>
                 </div>
                 <div className="insta flex flex-col items-center hover:cursor-pointer hover:scale-110">
-                <div className="logo">INSTA</div>
+                <div className="logo"><FontAwesomeIcon icon="fa-brands fa-instagram" /></div>
                     <div className="name">
                         <h1 className='text-3xl font-bold'>Instagram</h1>
                     </div>
                 </div>
                 <div className="insta flex flex-col items-center hover:cursor-pointer hover:scale-110">
-                <div className="logo">Lin</div>
+                <div className="logo"><FontAwesomeIcon icon="fa-brands fa-linkedin" /></div>
                     <div className="name">
-                        <h1 className='text-3xl font-bold'>Instagram</h1>
+                        <h1 className='text-3xl font-bold'>LinkedIn</h1>
                     </div>
                 </div>
             </div>
