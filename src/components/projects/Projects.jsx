@@ -22,7 +22,7 @@ function Projects() {
                     </p>
                 </div>
                 <div className="check p-3">
-                    <span className='bg-blue-300 p-3 m-2 rounded-xl text-blue-600 font-extrabold'>Try it </span>
+                    <span className='bg-blue-300 p-3 m-2 rounded-xl text-blue-600 font-extrabold'><Link>Try it</Link> </span>
                 </div>
             </div>
             <div className="rounded-lg h-fit flex flex-col shadow-md w-full bg-white pb-4">
